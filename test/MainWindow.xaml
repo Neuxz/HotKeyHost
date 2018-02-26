@@ -1,0 +1,24 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GlobalHotkeyHostTest"
+        xmlns:c1="http://schemas.componentone.com/winfx/2006/xaml" x:Class="GlobalHotkeyHostTest.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="KeysBox" HorizontalAlignment="Left" Margin="0,28,0,0" VerticalAlignment="Top" Width="225"/>
+        <Label Content="Key" HorizontalAlignment="Left" Margin="32,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.012,0.224"/>
+        <RadioButton x:Name="EventHotKey" Content="EventHotkey" HorizontalAlignment="Left" Margin="0,55,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="ActionHotKey" Content="ActionHotKey" HorizontalAlignment="Left" Margin="91,55,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button x:Name="AddButton" Content="Add to HotKey" HorizontalAlignment="Right" Margin="0,28,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.522,0.204" Click="AddKey"/>
+        <Button x:Name="FinalButton" Content="Finalize HotKey" Margin="0,55,0,0" VerticalAlignment="Top" Click="FinalizeHotkey" HorizontalAlignment="Right" Width="90"/>
+        <ListBox x:Name="HotKeyListBox" Margin="0,80,0,31"/>
+        <Label x:Name="ActionsHandle" Content="" Margin="0,0,0,5" Height="26" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

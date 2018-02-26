@@ -1,0 +1,6 @@
+C:\Users\wst\Source\Repos\HotKeyHost\src\bin\Debug\GlobalHotkeyHost.dll
+C:\Users\wst\Source\Repos\HotKeyHost\src\bin\Debug\GlobalHotkeyHost.pdb
+C:\Users\wst\Source\Repos\HotKeyHost\src\obj\Debug\GlobalHotkeyHost.csprojResolveAssemblyReference.cache
+C:\Users\wst\Source\Repos\HotKeyHost\src\obj\Debug\GlobalHotkeyHost.csproj.CoreCompileInputs.cache
+C:\Users\wst\Source\Repos\HotKeyHost\src\obj\Debug\GlobalHotkeyHost.dll
+C:\Users\wst\Source\Repos\HotKeyHost\src\obj\Debug\GlobalHotkeyHost.pdb
